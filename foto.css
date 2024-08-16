@@ -1,0 +1,155 @@
+/* Remove margens e preenchimentos de todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do cabeçalho */
+#cabeçalho {
+    padding-top: 25px;
+    height: 150px;
+    background: url(imagens/detalhe-topo.png) no-repeat right top;
+}
+
+/* Estilo do container centralizado */
+#container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+/* Estilo do corpo da página */
+body {
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+    background: #fff url(imagens/fundo.png) repeat-x;
+}
+
+/* Estilo dos links: muda a cor ao passar o mouse */
+a:hover {
+    color: #69001d;
+}
+
+/* Estilo dos links: cor e preenchimento */
+a:link, a:visited {
+    padding: 2px;
+    color: #b10333;
+}
+
+/* Estilo das listas: sem margem, preenchimento e marcadores */
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* Estilo das listas dentro do cabeçalho */
+#cabeçalho ul {
+    margin-top: 30px;
+    float: left;
+    background: #b10333;
+}
+
+/* Estilo dos links dentro das listas do cabeçalho */
+#cabeçalho ul a {
+    line-height: 2.1em;
+    background: url(imagens/divisor.png) no-repeat left center;
+    padding: 0.5em 1.5em;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+/* Estilo dos itens de lista dentro do cabeçalho */
+#cabeçalho ul li {
+    float: left;
+}
+
+/* Estilo do título h2 */
+h2 {
+    font-size: 1.1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+/* Estilo do título h3 */
+h3 {
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+    background-color: #b10333;
+    color: #fff;
+}
+
+/* Estilo do elemento com id segundo */
+#segundo {
+    margin-left: 10px;
+    float: left;
+    border: solid 3px #dfdfdf;
+    top: 20px;
+    position: relative;
+}
+
+/* Estilo do elemento com id borda_mundo */
+#borda_mundo {
+    border: 3px solid #dfdfdf;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+/* Estilo do elemento com id mundo */
+#mundo {
+    display: block;
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+    width: 400px;
+    padding-left: 250px;
+}
+
+/* Estilo dos links dentro do elemento com id mundo */
+#mundo a {
+    text-decoration: none;
+}
+
+/* Estilo da classe Novas */
+.Novas {
+    display: inline;
+    background-color: #fff;
+    color: #294c71;
+    font-family: Arial, sans-serif;
+    top: -44px;
+    position: relative;
+}
+
+/* Estilo da classe img_mundo */
+.img_mundo {
+    border-bottom: 1px solid #ccc;
+    margin-top: -2px;
+}
+
+/* Estilo da classe p */
+.p {
+    padding-left: 80px;
+    color: black;
+    margin-top: -42px;
+    padding-right: 8px;
+    margin-left: 18px;
+}
+
+/* Estilo da classe mundo_link */
+.mundo_link {
+    padding-top: 10px;
+}
+
+/* Estilo dos links dentro da classe mundo_link muda o fundo ao passar o mouse */
+.mundo_link:hover {
+    background-color: #dfdfdf;
+}
+
+/* Estilo do rodapé */
+footer {
+    background-color: #294c71;
+    color: #fff;
+    text-align: center;
+}

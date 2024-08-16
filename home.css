@@ -1,0 +1,259 @@
+/* Remove margens e preenchimentos padrão de todos os elementos */
+* {
+    margin: 0; 
+    padding: 0; 
+}
+
+/* Define o estilo básico do body, incluindo a fonte e a imagem de fundo */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; /* Fontes alternativas para o texto */
+    background: #fff url(imagens/fundo.png) repeat-x; /* Cor de fundo branca com imagem repetida horizontalmente */
+}
+
+/* Define a largura e centraliza o container principal */
+#container {
+    width: 750px; 
+    margin: 0 auto; 
+}
+
+/* Estiliza o cabeçalho com uma imagem de fundo e ajusta a altura */
+#cabeçalho {
+    padding-top: 25px; 
+    height: 150px; 
+    background: url(imagens/detalhe-topo.png) no-repeat right top; 
+}
+
+/* Muda a cor dos links quando o cursor passa sobre eles */
+a:hover {
+    color: #69001d; 
+}
+
+/* Define o estilo dos links, incluindo cor e preenchimento */
+a:link, a:visited {
+    padding: 2px; 
+    color: #b10333;
+}
+
+/* Remove margens e marcadores de listas padrão */
+ul {
+    padding: 0; 
+    margin: 0; 
+    list-style: none; 
+}
+
+/* Estiliza a lista dentro do cabeçalho com cor de fundo e alinhamento */
+#cabeçalho ul {
+    margin-top: 30px; 
+    float: left; 
+    background: #b10333; 
+}
+
+/* Define o estilo dos links na lista do cabeçalho */
+#cabeçalho ul a {
+    line-height: 2.1em;
+    background: url(imagens/divisor.png) no-repeat left center; 
+    padding: 0.5em 1.5em;
+    display: block; 
+    text-decoration: none; 
+    color: #fff; 
+    font-size: 0.9em;
+}
+
+/* Alinha os itens da lista dentro do cabeçalho à esquerda */
+#cabeçalho ul li {
+    float: left; 
+}
+
+/* Estiliza o conteúdo principal com cor de fundo e margem superior */
+#conteudo {
+    background: #f5f5f5; 
+    width: 830px; 
+    margin-top: 60px; 
+}
+
+/* Define o estilo do primeiro bloco com margens, largura e borda */
+#primeiro {
+    margin: 20px 0 0 20px;
+    width: 200px;
+    float: left; 
+    border: solid 3px #dfdfdf; 
+}
+
+/* Estiliza o h2 com fundo, cor do texto e preenchimento */
+h2 {
+    font-size: 1.1em; 
+    background: #294c71; 
+    color: #fff;
+    padding: 5px; 
+}
+
+/* Define o estilo do h3 com exibição em linha, fundo e cor do texto */
+h3 {
+    display: inline; 
+    font-size: 0.8em; 
+    padding: 3px; 
+    background-color: #b10333; 
+    color: #fff; 
+}
+
+/* Define a margem esquerda dos parágrafos */
+p {
+    margin-left: 10px; 
+}
+
+/* Define o estilo do segundo bloco com margens, largura e borda */
+#segundo {
+    margin-left: 10px; 
+    width: 270px; 
+    float: left; 
+    border: solid 3px #dfdfdf; 
+    top: 20px; 
+    position: relative;
+}
+/* Estiliza os itens dentro da classe .ul */
+.ul {
+    font-family: Arial, Helvetica, sans-serif; 
+    color: black; 
+    text-decoration: none; 
+    padding-left: 10px; 
+}
+
+/* Remove o preenchimento e a cor dos links dentro da classe .ul */
+.ul a:link, .ul a:visited {
+    padding: 0; 
+    color: inherit; 
+    text-decoration: none; 
+}
+
+/* Define o estilo dos links dentro da classe .ul ao passar o mouse */
+.ul a:hover {
+    padding-left: 20px; 
+    color: gray; 
+}
+
+/* Define o estilo do botão, incluindo tamanho, cor de fundo e borda */
+#button {
+    height: 30px;
+    width: 100px; 
+    background-color: #e50040; 
+    color: white; 
+    border: #69001d 2px solid; 
+}
+
+/* Define o estilo do quarto bloco com largura, margem e posição absoluta */
+#quarto {
+    width: 270px; 
+    float: left; 
+    border: solid 3px #dfdfdf; 
+    margin-left: 530px; 
+    top: 255px; 
+    position: absolute; 
+}
+
+/* Estiliza o bloco #mundo com alinhamento, cor de fundo, borda e preenchimento */
+#mundo {
+    float: left; 
+    background: #fff; 
+    padding: 5px;
+    margin-top: 5px; 
+    width: 400px; 
+    border: #dfdfdf solid 5px; 
+}
+
+/* Remove o sublinhado dos links dentro do bloco #mundo */
+#mundo a {
+    text-decoration: none;
+}
+
+/* Define o estilo da classe Novas dentro do bloco #mundo */
+.Novas {
+    background-color: #fff; 
+    color: #294c71; 
+    font-family: Arial, Helvetica, sans-serif; 
+    top: -44px; 
+    position: relative; 
+}
+
+/* Estiliza a imagem dentro do bloco #mundo */
+.img_mundo {
+    border-bottom: 1px solid #ccc; 
+    margin-top: -2px; 
+}
+
+/* Define o estilo dos parágrafos dentro do bloco #mundo */
+.p {
+    padding-left: 80px; 
+    color: black; 
+    margin-top: -42px; 
+    padding-right: 8px; 
+    margin-left: 18px; 
+}
+
+/* Define o estilo do link dentro do bloco #mundo */
+.mundo_link {
+    padding-top: 10px; 
+}
+
+/* Muda a cor de fundo do link ao passar o mouse dentro do bloco #mundo */
+.mundo_link:hover {
+    background-color: #dfdfdf;
+}
+
+/* Define o estilo do bloco #mundo2, incluindo largura, alinhamento e borda */
+#mundo2 {
+    background: #fff; 
+    padding: 5px; 
+    width: 400px; 
+    float: right; 
+    top: -409px; 
+    position: relative; 
+    border: #dfdfdf solid 5px; 
+}
+
+/* Remove o sublinhado dos links dentro do bloco #mundo2 */
+#mundo2 a {
+    text-decoration: none; 
+}
+
+/* Define o estilo da classe Novas2 dentro do bloco #mundo2 */
+.Novas2 {
+    display: inline; 
+    background-color: #fff; 
+    color: #294c71; 
+    font-family: Arial, Helvetica, sans-serif; 
+    top: -44px; 
+    position: relative;
+}
+
+/* Estiliza a imagem dentro do bloco #mundo2 */
+.img_mundo2 {
+    border-bottom: 1px solid #ccc; 
+    margin-top: -2px; 
+}
+
+/* Define o estilo dos parágrafos dentro do bloco #mundo2 */
+.p2 {
+    padding-left: 80px;
+    color: black; 
+    margin-top: -42px; 
+    padding-right: 8px;
+    margin-left: 18px; 
+}
+
+/* Muda a cor de fundo do link ao passar o mouse dentro do bloco #mundo2 */
+.mundo_link2:hover {
+    background-color: #dfdfdf; 
+}
+
+/* Define o estilo do link dentro do bloco #mundo2 */
+.mundo_link2 {
+    padding-top: 10px;
+}
+
+/* Define o estilo do footer, incluindo limpeza dos flutuantes, cor de fundo, cor do texto e centralização */
+footer {
+    clear: both; 
+    background-color: #294c71; 
+    color: #fff; 
+    text-align: center; 
+}

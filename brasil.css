@@ -1,0 +1,222 @@
+/* Zera as margens e os preenchimentos em todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza o corpo da página: muda a fonte, a cor de fundo e define uma imagem de fundo */
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: #fff url(imagens/fundo.png) repeat-x;
+}
+
+/* Define a largura e centraliza o contêiner principal */
+#container {
+    width: 750px;
+    margin: 0 auto;
+}
+
+/* Estiliza o cabeçalho: adiciona espaço no topo, define a altura e coloca uma imagem de fundo no canto superior direito */
+#cabeçalho {
+    padding-top: 25px;
+    height: 150px;
+    background: url(imagens/detalhe-topo.png) no-repeat right top;
+}
+
+/* Muda a cor dos links quando o mouse passa sobre eles */
+a:hover {
+    color: #69001d;
+}
+
+/* Adiciona um preenchimento vermelho aos links e define a cor para quando não foram visitados */
+a:link, a:visited {
+    padding: 2px;
+    color: #b10333;
+}
+
+/* Remove margens e preenchimentos das listas e tira os marcadores padrão */
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+/* Define a margem superior, o fundo vermelho e posiciona a lista dentro do cabeçalho para a esquerda */
+#cabeçalho ul {
+    margin-top: 30px;
+    float: left;
+    background: #b10333;
+}
+
+/* Estiliza os links dentro da lista do cabeçalho: alinha verticalmente, adiciona uma imagem de fundo à esquerda, espaçamento e altera a cor e tamanho da fonte */
+#cabeçalho ul a {
+    line-height: 2.1em;
+    background: url(imagens/divisor.png) no-repeat left center;
+    padding: 0.5em 1.5em;
+    display: block;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+/* Posiciona os itens da lista do cabeçalho para a esquerda */
+#cabeçalho ul li {
+    float: left;
+}
+
+/* Adiciona uma margem superior ao conteúdo principal */
+#conteudo {
+    margin-top: 60px;
+}
+
+/* Estiliza o primeiro bloco com margem, largura, borda e fundo branco */
+#primeiro {
+    margin: 20px 0 0 20px;
+    width: 200px;
+    border: solid 3px #dfdfdf;
+    background-color: white;
+}
+
+/* Modifica o estilo dos títulos h2: tamanho da fonte, cor de fundo, cor do texto e preenchimento */
+h2 {
+    font-size: 1.1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+
+/* Estiliza os títulos h3: transforma o texto em maiúsculas, define o tamanho da fonte, cor de fundo e do texto */
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+    background-color: #b10333;
+    color: #fff;
+}
+
+/* Define a margem esquerda dos parágrafos */
+p {
+    margin-left: 10px;
+}
+
+/* Estiliza o segundo bloco: margem esquerda, largura, posição absoluta e borda */
+#segundo {
+    margin-left: 250px;
+    width: 270px;
+    top: 228px;
+    position: absolute;
+    border: 3px solid #dfdfdf;
+}
+
+/* Estiliza listas dentro da classe .ul: define a fonte, cor e estilo dos links */
+.ul {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+/* Remove o preenchimento e cor vermelha dos links dentro da classe .ul, mantendo o efeito de hover */
+.ul a:link, .ul a:visited {
+    padding: 0;
+    color: black;
+    text-decoration: none;
+}
+
+/* Muda a cor e o preenchimento dos links ao passar o mouse sobre eles */
+.ul a:hover {
+    padding-left: 20px;
+    color: gray;
+}
+
+/* Estiliza o botão: define a altura, largura, cor de fundo e da borda */
+#button {
+    height: 30px;
+    width: 100px;
+    background-color: #e50040;
+    color: white;
+    border: #69001d 2px solid;
+}
+
+/* Estiliza listas com a classe mundo-sub: remove marcadores, define a cor de fundo e a fonte */
+.mundo-sub {
+    list-style: none;
+    background-color: #fff;
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;
+}
+
+/* Ajusta o estilo do segundo bloco: adiciona preenchimento, largura e cor de fundo */
+#segundo {
+    padding: 10px;
+    width: 400px;
+    background-color: #fff;
+}
+
+/* Adiciona uma borda ao redor do elemento com a ID #borda_mundo */
+#borda_mundo {
+    border: solid 3px #dfdfdf;
+    display: inline-block;
+}
+
+/* Estiliza o elemento com a ID #mundo: define a margem, largura e alinhamento do texto */
+#mundo {
+    display: block;
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+    width: 400px;
+    padding-left: 250px;
+    clear: both;
+}
+
+/* Remove o sublinhado dos links dentro do elemento #mundo */
+#mundo a {
+    text-decoration: none;
+}
+
+/* Estiliza os elementos com a classe Novas: define a cor de fundo, do texto e posicionamento */
+.Novas {
+    display: inline;
+    background-color: #fff;
+    color: #294c71;
+    font-family: Arial, Helvetica, sans-serif;
+    top: -44px;
+    position: relative;
+}
+
+/* Adiciona uma borda inferior e margem superior à imagem com a classe .img_mundo */
+.img_mundo {
+    border-bottom: 1px solid #ccc;
+    margin-top: -2px;
+}
+
+/* Define o preenchimento, cor e margem dos elementos com a classe .p */
+.p {
+    padding-left: 80px;
+    color: black;
+    margin-top: -42px;
+    padding-right: 8px;
+    margin-left: 18px;
+}
+
+/* Estiliza o link com a classe mundo_link: define o preenchimento superior */
+.mundo_link {
+    padding-top: 10px;
+}
+
+/* Muda a cor de fundo do link com a classe mundo_link quando o mouse passa sobre ele */
+.mundo_link:hover {
+    background-color: #dfdfdf;
+}
+
+/* Estiliza o rodapé: define a cor de fundo, o alinhamento do texto e a cor do texto */
+footer {
+    background-color: #294c71;
+    text-align: center;
+    color: #fff;
+}
+
+    
